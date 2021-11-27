@@ -1,0 +1,19 @@
+
+<div class="geral">
+    <div class="menu">
+        <h6>MENU</h6>
+            <div class="produto" [routerLink]="['/camisas']" routerLinkActive="active">Camisas</div>
+            <div class="produto" [routerLink]="['/regatas']" routerLinkActive="active">Regatas</div>
+            <div class="produto" [routerLink]="['/shorts']" routerLinkActive="active">Shorts</div>
+            <div class="produto" [routerLink]="['/polo']" routerLinkActive="active">Camisas Polo</div>
+            <div class="produto" [routerLink]="['/esportivas']" routerLinkActive="active">Roupas de Esporte</div>
+            <div class="produto" [routerLink]="['/conjuntos']" routerLinkActive="active">Conjuntos</div>
+            <div class="produto" [routerLink]="['/pijamas']" routerLinkActive="active">Pijamas</div>
+            <div class="produto" [routerLink]="['/vestidos']" routerLinkActive="active">Vestidos</div>
+            <div class="produto" [routerLink]="['/saias']" routerLinkActive="active">Saias</div>
+            <div class="produto" [routerLink]="['/infantil']" routerLinkActive="active">Infantil</div>
+    </div>
+    <div class="produtos">
+        <router-outlet></router-outlet>
+    </div>
+</div>
